@@ -55,3 +55,13 @@ ul li{
 #video{
     position: relative
 }
+<!--hakemistoon, jossa koodit
+git init
+git add .
+git status
+git commit -m "messu"
+määrittele sähköpostiosoite yms. feikit käynee
+kommitti uudelleen
+git remote add origin ja oma url
+git push origin master
+-->
