@@ -1,0 +1,57 @@
+tr{
+    background-color:lightblue;
+    color: navy;
+}
+table{
+    border-style: groove;
+    border-radius: 10px;
+}
+h3{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: "Courier", serif;
+}
+footer{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    border-style: solid;
+    border-bottom-color: yellow;
+}
+#lond{
+    background-color: rgb(182, 45, 3);
+    padding: 10px;
+    border-style: solid;
+    border-color: fuchsia;
+}
+#buda{
+    background-color: rgb(67, 146, 236);
+    padding: 10px;
+    border-style: solid;
+    border-color: cyan;
+}
+#links{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+}
+.headeri{
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    border-width: thick;
+    padding: 12px;
+    border-style: dashed;
+    border-color: navy;
+}
+ul li{
+    display: inline-block;
+    min-width: 200px;
+    background: fuchsia;
+    text-align: center;
+    border-radius: 10px;
+}
+#video{
+    position: relative
+}

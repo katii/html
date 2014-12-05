@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML5, Programming, Training">
+        <title>Welcome</title>
+        <script>
+            window.onload = function(event){
+                console.log(event)
+            }
+        </script>
+        <style>
+            <!-- valitse tr (element selector, kun annetaan tr suoraan) ja anna nille tyyli-->
+            tr{
+                background-color:lightblue;
+                color: red;
+            }
+            table{
+                border-style: solid dotted;
+                border-radius: 10px;
+            }
+            <!-- id selector, vaikuttaa niihin joiden id = nav-->
+            #nav{
+                background-color: lightgreen;
+                padding: 10px;
+            }
+            <!-- class selector -->
+            .myheader{
+                background-color:pink;
+                margin: 10px;
+            }
+            
+            .extends{
+                color:red;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <!-- Tässä on kommentti -->
+    <!-- tämä bodyn perässä määräis stylen style= "background-color:aliceblue;-->
+    <body>
+        <div>
+            <header class="myheader extends">
+                <h1>Welcome</h1>
+            </header>
+            <nav id="nav">
+                <a href="http://www.kaleva.fi">Kaleva</a><br>
+                <a href="http://www.kaleva.fi">Kaleva2</a>
+                <a href="http://www.kaleva.fi">Kaleva3</a>
+            </nav>
+        <!--This is where the  -->
+        <section>
+            <article>
+                <table border="1">
+                    <!-- Heading part of the table-->
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <body>
+                        <!--First row-->
+                        <tr>
+                            <td>iPhone</td>
+                            <td>12kpl</td>
+                            <td>350e</td>
+                        </tr>
+                        <!--Second row-->
+                        <tr style="background-color:yellow">
+                            <td>Lumia</td>
+                            <td>13kpl</td>
+                            <td>150e</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Samsung</td>
+                        </tr>
+                    </body>
+                </table>
+            </article>
+        </section>
+        </div>
+        <footer>Copyright (c) 2014 Oulu Training Team</footer>
+    </body>
+</html>
