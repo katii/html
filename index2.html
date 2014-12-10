@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML5, Programming, Training">
+        <title>Welcome</title>
+        <script>
+            window.onload = function(event){
+                console.log(event)
+            }
+        </script>
+        <style>
+            .test{
+                transition: opacity 2s;
+            }
+            div:hover{
+                transform: rotate(180deg);
+            }
+            
+        </style>
+        
+<!-- jos tuossa alemmasa test ei löydy, on myId null pointteri -->
+<!-- window.onload odottaa, että kaikki kuvat ladattu -->
+<!-- document.onload triggaa, kun menee sivun loppuun -->
+        <!-- oli myId.onclick = function{ myId.syte.opacity = 0; } -->
+        
+    <script src="myscript2.js"></script>
+        
+    </head>
+    <!-- Tässä on kommentti -->
+    <!-- tämä bodyn perässä määräis stylen style= "background-color:aliceblue;-->
+    <body>
+        <div id="test" class="test">Test</div>
+    </body>
+</html>
